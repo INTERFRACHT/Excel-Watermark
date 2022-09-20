@@ -112,7 +112,7 @@ namespace Excel_Watermark
                 {
                     File.Delete(outputFilePath);
                     result++;
-                    Thread.Sleep(5000);
+                    Thread.Sleep(3000);
                 }
 
                 // Create COM Objects

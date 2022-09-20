@@ -24,10 +24,10 @@ namespace Excel_Watermark
         {
             con = new SqlConnection("Application Name=Excel.Watermark;Data Source=10.0.0.17;Network Library=dbmssocn;Initial Catalog=INTRA_DB;User ID=sa;Password=ift.2017;Workstation ID=INTRA.Service;");
 
-            for (int i = 0; i < 11; i++)
+            for (int i = 0; i < 20; i++)
             {
                 i += Process();
-                Thread.Sleep(5000);
+                Thread.Sleep(3000);
             }
         }
 
